@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<style>
+    fieldset{
+        
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    width: 500px;
+    height: 280px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: space-evenly; /* Distribute items vertically */
+    }
+input{
+    /* width: 300px;
+    height: 40px; */
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+
+    font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+button{
+border-radius: 5px;
+width: 310px;
+height: 40px;
+border-radius: 5px;
+background-color: blue;
+color: white;
+
+font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+.fa-facebook{
+    color: blue;
+    font-size: 50px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+
+
+
+    
+}
+
+h3{
+    font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h4{
+    font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+</style>
+<body>
+   <a href="fb.html"> <i class="fa-brands fa-facebook"></i></a>
+    <div class="parent">
+        <fieldset>
+        <h3>Find Your Account</h3>
+        <h4>Please enter your email address or mobile number to search <br> for your account.</h4>
+        <input type="email" placeholder="Email address or phone number">
+        <button type="search">Search</button>
+    </fieldset>
+    </div>
+</body>
+</html>

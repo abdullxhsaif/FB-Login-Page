@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<style>
+   fieldset{   position: absolute;
+    left: 350px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: space-evenly; /* Distribute items vertically */}
+
+   .inputx{ width: 300px;
+    height: 40px;
+    border-radius: 5px;
+
+    font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+   }
+   #x{
+    display: flex;
+
+    font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+   }
+
+   .fa-facebook{
+    color: blue;
+    font-size: 50px;
+    position: absolute;
+    top: 40px;
+    left: 70px;}
+
+    .head{
+        font-size: medium;
+        position: absolute;
+        top: 163px;
+        left: 110px;
+
+
+        font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .tail{
+        font-size: medium;
+        position: absolute;
+        top: 230px;
+        left: 110px;
+
+
+        font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+
+    .new{
+        position: absolute;
+        left: 450px;
+        top: 8px;
+        font-size: xx-large;
+
+
+        font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+
+    .submit{
+        position: absolute;
+        left: 350px;
+        top: 630px;
+
+        width: 530px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+
+
+    font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+        
+    }
+</style>
+<body>
+
+    <a href="fb.html"> <i class="fa-brands fa-facebook"></i></a>
+    <div class="parent">
+        <h5 class="new">Create a new account</h5>
+        <fieldset>
+        <input type="text" placeholder="First Name" class="inputx">
+        <input type="text" placeholder="Surname" class="inputx">
+        <h5 class="head">Date of Birth :</h5>
+        <input type="date">
+        <h5 class="tail">Gender :</h5> 
+        <div id="x">
+        <input type="radio"> Male
+        <input type="radio"> Fe Male
+        <input type="radio"> Custom
+    </div>
+        <input type="text" placeholder="Mobile number or email address" class="inputx">
+        <input type="password" placeholder="New Password" class="inputx">
+    </fieldset>
+    <button type="submit" class="submit">Sign Up</button>
+
+    </div>
+
+</body>
+</html>
